@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MY Cart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/292cbd8ce8.js" crossorigin="anonymous"></script>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link rel="icon"
+        href="https://e7.pngegg.com/pngimages/672/896/png-clipart-picnic-baskets-wicker-nyse-glw-others-miscellaneous-weave.png">
+</head>
+
+<body>
+    <section id="bag">
+        <div class="head">
+            <div>
+                <img src="https://www.sobflous.tn/images/marchand/paiementmarchand.png" alt="">
+            </div>
+            <div>
+                <h1 class="title2">Cart</h1>
+            </div>
+        </div>
+
+        <div>
+            <table class="contentable">
+                <thead>
+                    <tr>
+                        <th>Product(s)</th>
+                        <th>Quantity</th>
+                        <th>Unit price</th>
+                        <th>Total price</th>
+                    </tr>
+                </thead>
+                <tbody id="bodytable">
+                    <tr class="row">
+                        <th>
+                            <div class="item">
+                                <img class="itemimg"
+                                    src="https://cdn2.boutique-jourdefete.com/imgs/8cf0827866dd5b341bf41052ec2e3a19/eco-responsable-200-cure-dents-bois-pure-rond-68-cm-en-distributeur-en-bois_1.jpg"
+                                    alt="product">
+                                <h2>Original toothpick</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <span class="minus0 minus">-</span>
+                            <span class="num0 num">1</span>
+                            <span class="plus0 plus">+</span>
+                        </th>
+                        <th class="uprice0 uprice">500 FCFA</th>
+                        <th class="tprice0 uprice"></th>
+                        <th>
+                            <button onclick="like()" class="heart" type="button"> <i
+                                    class="fa-solid fa-heart fa-2x"></i> </button>
+                        </th>
+                        <th><i class="fa-solid fa-trash-can fa-2x trash"></i></th>
+                    </tr>
+
+                    <tr class="row">
+                        <th>
+                            <div class="item">
+                                <img class="itemimg"
+                                    src="https://www.magasinsennelier.art/273737-home_default/crayon-de-couleur-prismacolor-verithin-bleu-marine-ii.jpg"
+                                    alt="product">
+                                <h2>Affordable colored pencil</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <span class="minus1 minus">-</span>
+                            <span class="num1 num">1</span>
+                            <span class="plus1 plus">+</span>
+                        </th>
+                        <th class="uprice1 uprice">1000 FCFA</th>
+                        <th class="tprice1 tprice"></th>
+                        <th>
+                            <button onclick="like1()" class="heart1" type="button"> <i
+                                    class="fa-solid fa-heart fa-2x"></i> </button>
+                        </th>
+                        <th><i class="fa-solid fa-trash-can fa-2x trash"></i></th>
+                    </tr>
+
+                    <tr class="row">
+                        <th>
+                            <div class="item">
+                                <img class="itemimg"
+                                    src="https://www.ducatillon.com/upload/referentiel/29706/299.0013.jpg"
+                                    alt="product">
+                                <h2>A box of 12 quail eggs</h2>
+                            </div>
+                        </th>
+                        <th>
+                            <span class="minus2 minus">-</span>
+                            <span class="num2 num">1</span>
+                            <span class="plus2 plus">+</span>
+                        </th>
+                        <th class="uprice2 uprice">5000 FCFA</th>
+                        <th class="tprice2 tprice"></th>
+                        <th>
+                            <button onclick="like2()" class="heart2" type="button"> <i
+                                    class="fa-solid fa-heart fa-2x"></i> </button>
+                        </th>
+                        <th><i class="fa-solid fa-trash-can fa-2x trash"></i></th>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div id="tot">
+            <h1>TOTAL</h1>
+            <span>6500 FCFA</span>
+        </div>
+        <button type="button" class="btn btn-buy">BUY</button>
+    </section>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

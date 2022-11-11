@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title2{
+    font-size: 7vh;
+    text-decoration: underline;
+}
+.head div img{
+    height: 10vh;
+    width: 10vh;
+}
+table{
+    margin: auto;
+    display: table;
+    width: 150vh;
+}
+table thead tr{
+    padding: 15px;
+    font-size: x-large;
+}
+table tr td{
+    padding: 12px 15px;
+    
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.itemimg{
+    width: 15vh;
+    height: 15vh;
+    padding: 10px;
+}
+
+/*liker the product*/
+.heart,.heart1,.heart2, .trash{
+    background-color: transparent;
+    border: none;
+    color: grey;
+    cursor: pointer;
+}
+
+/*increase decrease*/
+.minus, .num, .plus{
+    font-size: 30px;
+    padding: 10px;
+}
+.minus, .plus{
+    cursor: pointer;
+}
+#tot{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+#tot span{
+    font-size: xx-large;
+    font-weight: bold;
+}
+/*Button buy*/
+#bag .btn{
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    margin: 100px 45%;
+    padding: 5px 30px;
+}
+#bag .btn:hover{
+   background-color: green;
+}
